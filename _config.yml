@@ -1,24 +1,24 @@
 # ----
 # Site
 
-title: Base
-url: "https://orange-ape.cloudvent.net/"
-baseurl:
-google_analytics_key:
+title: Ruby on Rails Cheatsheet
+url: "https://deepakmahakale.com/ruby-on-rails-cheatsheet/"
+baseurl: '/ruby-on-rails-cheatsheet'
+google_measurement_id: G-Z571RZ46QW
 disqus_shortname:
 newsletter_action:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Knowledge base template for Jekyll.
+description: The Ultimate Ruby on Rails Cheatsheet.
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: Deepak Mahakale
+  email: hello@deepakmahakale.in
+  twitter: deepakmahakale
 social:
-  name: Base Template
+  name: Github
   links:
-    - https://github.com/CloudCannon/base-jekyll-template
+    - https://github.com/deepakmahakale
 
 # -----
 # Build
