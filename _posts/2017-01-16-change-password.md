@@ -2,7 +2,7 @@
 date: 2017-01-16
 title: Change password
 categories:
-  - account-settings
+  - zzz
 description: Keep your account secure
 type: Document
 ---

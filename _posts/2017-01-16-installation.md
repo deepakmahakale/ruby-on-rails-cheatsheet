@@ -2,7 +2,7 @@
 date: 2017-01-16
 title: Installation
 categories:
-  - getting-started
+  - zzz
 description: Your guide to installation
 type: Document
 ---

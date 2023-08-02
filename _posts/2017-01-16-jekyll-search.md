@@ -1,8 +1,8 @@
 ---
 date: 2017-01-16
-title: jekyll-search
+title: How to run a single minitest test?
 categories:
-  - plugins
+  - testing
 description: Search on your Jekyll site
 type: Document
 ---

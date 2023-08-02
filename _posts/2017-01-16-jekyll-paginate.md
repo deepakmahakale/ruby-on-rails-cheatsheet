@@ -1,8 +1,8 @@
 ---
 date: 2017-01-16
-title: jekyll-paginate
+title: How to run system tests?
 categories:
-  - plugins
+  - testing
 description: Pagination on your Jekyll blog
 type: Document
 ---

@@ -1,8 +1,8 @@
 ---
 date: 2017-01-16
-title: jekyll-sitemap
+title: How to run a single rspec test?
 categories:
-  - plugins
+  - testing
 description: Sitemap on your Jekyll site
 type: Document
 ---

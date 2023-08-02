@@ -1,9 +1,9 @@
 ---
 date: 2017-01-16
-title: Subscription payments
+title: nil vs empty vs blank in ruby
 categories:
-  - billing
-description: How subscription payments work.
+  - basic
+description: ruby nil vs empty vs blank; What is the difference?
 type: Document
 ---
 Jekyll is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through a converter (like Markdown) and our Liquid renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server.

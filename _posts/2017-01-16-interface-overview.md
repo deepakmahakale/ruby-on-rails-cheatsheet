@@ -2,7 +2,7 @@
 date: 2017-01-16
 title: Interface overview
 categories:
- - getting-started
+ - zzz
 description: How does the interface work?
 type: Document
 ---

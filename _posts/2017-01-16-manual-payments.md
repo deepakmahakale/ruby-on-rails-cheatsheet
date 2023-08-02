@@ -1,8 +1,8 @@
 ---
 date: 2017-01-16
-title: Manual payments
+title: How to get random number in ruby
 categories:
-  - billing
+  - basic
 description: How to pay manually
 type: Document
 ---

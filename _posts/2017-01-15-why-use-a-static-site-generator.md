@@ -5,7 +5,7 @@ video_id: t3yEhIAOeg8
 description: Introduction to the world of static site generators
 type: Video
 categories:
-  - getting-started
+  - zzz
 set: getting-started
 order_number: 6
 ---

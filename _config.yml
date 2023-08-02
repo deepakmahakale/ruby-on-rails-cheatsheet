@@ -2,7 +2,7 @@
 # Site
 
 title: Ruby on Rails Cheatsheet
-url: "https://deepakmahakale.com/ruby-on-rails-cheatsheet/"
+url: 'https://deepakmahakale.com/ruby-on-rails-cheatsheet/'
 baseurl: '/ruby-on-rails-cheatsheet'
 google_measurement_id: G-Z571RZ46QW
 disqus_shortname:
@@ -43,32 +43,27 @@ exclude:
 collections:
   sets:
 
-
 jekyll-archives:
   enabled: ['categories']
 
 defaults:
-  -
-    scope:
-      path: ""
+  - scope:
+      path: ''
     values:
-      layout: "default"
-  -
-    scope:
-      type: "posts"
+      layout: 'default'
+  - scope:
+      type: 'posts'
     values:
-      layout: "post"
+      layout: 'post'
       comments: true
-  -
-    scope:
-      type: "sets"
+  - scope:
+      type: 'sets'
     values:
       _hide_content: true
-  -
-    scope:
-      path: "index.html"
+  - scope:
+      path: 'index.html'
     values:
-      body_class: "show_hero_search"
+      body_class: 'show_hero_search'
 
 # -----------
 # CloudCannon
