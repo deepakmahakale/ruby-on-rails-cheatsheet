@@ -1,5 +1,5 @@
 ---
-date: 2017-01-15
+date: 2025-01-15
 title: Why use a static site generator?
 video_id: t3yEhIAOeg8
 description: Introduction to the world of static site generators

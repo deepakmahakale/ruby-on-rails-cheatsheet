@@ -1,5 +1,5 @@
 ---
-date: 2017-01-16
+date: 2025-01-16
 title: Add a credit card
 categories:
   - zzz
