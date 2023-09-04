@@ -35,15 +35,15 @@ Base was built with [Jekyll](http://jekyllrb.com/) version 3.4.3, but should sup
 
 Install the dependencies with [Bundler](http://bundler.io/):
 
-~~~bash
+```bash
 $ bundle install
-~~~
+```
 
 Run `jekyll` commands through Bundler to ensure you're using the right versions:
 
-~~~bash
+```bash
 $ bundle exec jekyll serve
-~~~
+```
 
 ## Editing
 

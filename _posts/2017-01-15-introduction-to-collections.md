@@ -49,14 +49,14 @@ Next, we need to do is to define areas in our HTML which non-developers can upda
 
 Open `index.html` in CloudCannon and add a class of `editable` to the `h1` and `p` inside `<div class="header-content-inner">` so it becomes the following:
 
-~~~ html
+``` html
 <div class="header-content-inner">
   <h1 class="editable">Your Favorite Source of Free Bootstrap Themes</h1>
   <hr>
   <p class="editable">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
   <a href="/about.html" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
 </div>
-~~~
+```
 
 ## Client Access
 
