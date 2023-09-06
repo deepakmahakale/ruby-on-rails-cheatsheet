@@ -7,6 +7,7 @@ description: >
   Need to change a column default in rails?
   Let's see how to do it.
 type: Document
+image: /images/og/how-to-change-column-default-in-rails.jpg
 ---
 
 ## Syntax

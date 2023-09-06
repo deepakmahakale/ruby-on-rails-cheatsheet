@@ -7,6 +7,7 @@ description: >
   Need to remove a column in rails?
   Let's see how to do it.
 type: Document
+image: /images/og/how-to-remove-a-column-in-rails.jpg
 ---
 
 ## Syntax

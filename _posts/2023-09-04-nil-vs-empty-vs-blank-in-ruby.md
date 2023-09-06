@@ -5,6 +5,7 @@ categories:
   - basic
 description: ruby nil? vs empty? vs blank?; What is the difference?
 type: Document
+image: /images/og/nil-vs-empty-vs-blank-in-ruby.jpg
 ---
 
 ## nil?

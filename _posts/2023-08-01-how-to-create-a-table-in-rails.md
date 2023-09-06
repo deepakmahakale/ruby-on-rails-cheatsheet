@@ -7,6 +7,7 @@ description: >
   Need to create a table in rails?
   Let's see how to do it.
 type: Document
+image: /images/og/how-to-create-a-table-in-rails.jpg
 ---
 
 

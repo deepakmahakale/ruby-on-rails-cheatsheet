@@ -5,6 +5,7 @@ categories:
   - basic
 description: How to generate random numbers in ruby between a specified range.
 type: Document
+image: /images/og/how-to-generate-random-number-in-ruby.jpg
 ---
 
 ## Without an argument

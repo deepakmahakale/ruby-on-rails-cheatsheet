@@ -7,6 +7,7 @@ description: >
   Need to do something?
   Let's see how to do it.
 type: Document
+image:
 ---
 
 ## rename_column

@@ -7,6 +7,7 @@ description: >
   Need to rollback a specific database migration?
   Let's see how to do it.
 type: Document
+image: /images/og/how-to-rollback-a-specific-migration-in-rails.jpg
 ---
 
 In order to rollback a specific migration we need to specify the `VERSION` of the migration.

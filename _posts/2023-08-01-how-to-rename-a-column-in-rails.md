@@ -7,6 +7,7 @@ description: >
   Need to rename a column in rails?
   Let's see how to do it.
 type: Document
+image: /images/og/how-to-rename-a-column-in-rails.jpg
 ---
 
 ## Syntax
