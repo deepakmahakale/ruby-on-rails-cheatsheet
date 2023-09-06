@@ -19,6 +19,9 @@ social:
   name: Github
   links:
     - https://github.com/deepakmahakale
+twitter:
+  username: deepakmahakale
+  card: summary_large_image
 
 # -----
 # Build
