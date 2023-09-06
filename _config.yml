@@ -5,7 +5,7 @@ title: Ruby on Rails Cheatsheet
 url: 'https://deepakmahakale.com'
 baseurl: '/ruby-on-rails-cheatsheet'
 google_measurement_id: G-Z571RZ46QW
-disqus_shortname:
+disqus_shortname: ruby-on-rails-cheatsheet
 newsletter_action:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
