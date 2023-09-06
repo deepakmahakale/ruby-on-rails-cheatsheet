@@ -87,4 +87,4 @@ end
 - [https://guides.rubyonrails.org/active_record_migrations.html](https://guides.rubyonrails.org/active_record_migrations.html)
 
 ## Note
-All the commands have been tested with rails 7.1 and the result may be different with prior versions
+All the commands have been tested with rails 7.1 and the result may differ with prior versions
