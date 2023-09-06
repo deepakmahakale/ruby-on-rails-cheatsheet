@@ -1,6 +1,6 @@
 ---
 date: 2023-09-04
-title: How to get random number in ruby.
+title: How to get random number in ruby?
 categories:
   - basic
 description: How to generate random numbers in ruby between a specified range.

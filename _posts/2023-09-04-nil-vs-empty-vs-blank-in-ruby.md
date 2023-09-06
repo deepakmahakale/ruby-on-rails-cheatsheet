@@ -1,5 +1,5 @@
 ---
-date: 2017-01-16
+date: 2023-09-04
 title: nil? vs empty? vs blank? in ruby
 categories:
   - basic

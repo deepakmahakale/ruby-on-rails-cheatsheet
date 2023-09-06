@@ -1,9 +1,11 @@
 ---
-date: 2017-01-16
-title: How to create a table?
+date: 2023-08-01
+title: How to create a table in rails?
 categories:
   - migration
-description: How to create a table in ruby on rails?
+description: >
+  Need to create a table in rails?
+  Let's see how to do it.
 type: Document
 ---
 
