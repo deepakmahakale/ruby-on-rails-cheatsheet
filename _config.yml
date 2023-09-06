@@ -49,7 +49,7 @@ collections:
 jekyll-archives:
   enabled: ['categories']
   permalinks:
-    categories: '/:name/'
+    category: 'category/:name/'
 
 defaults:
   - scope:
