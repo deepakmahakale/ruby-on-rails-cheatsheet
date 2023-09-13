@@ -3,11 +3,11 @@ layout: default
 permalink: /category/basic
 title: Basic
 ---
-asda
 
-asdas
 {% assign posts = site.categories.basic | sort: "title" %}
-<h2 style="text-transform:capitalize;">{{ page.title | replace: "-", " " }} <span class="count">({{ posts | size
-    }})</span></h2>
+<h2 style="text-transform:capitalize;">
+  {{ page.title | replace: "-", " " }} 
+  <span class="count">({{ posts | size }})</span>
+</h2>
 
 {% include listings.html listings=posts %}
