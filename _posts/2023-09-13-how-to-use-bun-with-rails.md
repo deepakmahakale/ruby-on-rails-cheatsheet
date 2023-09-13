@@ -7,7 +7,7 @@ description: >
   Bun + Rails 7.1
   Let's see how to do it.
 type: Document
-image:
+image: images/og/how-to-use-bun-with-rails.png
 ---
 
 Bun is fast. So is Rails.
