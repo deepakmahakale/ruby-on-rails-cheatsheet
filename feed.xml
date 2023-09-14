@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://deepakmahakale.com/ruby-on-rails-cheatsheet/feed.xml" rel="self" type="application/atom+xml" /><link href="https://deepakmahakale.com/ruby-on-rails-cheatsheet/" rel="alternate" type="text/html" /><updated>2023-09-14T11:24:20+05:30</updated><id>https://deepakmahakale.com/ruby-on-rails-cheatsheet/feed.xml</id><title type="html">Ruby on Rails Cheatsheet</title><subtitle>The Ultimate Ruby on Rails Cheatsheet.</subtitle><author><name>Deepak Mahakale</name><email>hello@deepakmahakale.in</email></author><entry><title type="html">How to check TODOs and FIXMEs in rails?</title><link href="https://deepakmahakale.com/ruby-on-rails-cheatsheet/rails/how-to-check-todos-in-rails/" rel="alternate" type="text/html" title="How to check TODOs and FIXMEs in rails?" /><published>2023-09-13T00:00:00+05:30</published><updated>2023-09-13T00:00:00+05:30</updated><id>https://deepakmahakale.com/ruby-on-rails-cheatsheet/rails/how-to-check-todos-in-rails</id><content type="html" xml:base="https://deepakmahakale.com/ruby-on-rails-cheatsheet/rails/how-to-check-todos-in-rails/"><![CDATA[<h2 id="find-all-todos-and-fixmes-in-your-project">Find all TODO’s and FIXME’s in your project?</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bin/rails notes
+
+app/controllers/posts_controller.rb:
+  <span class="k">*</span> <span class="o">[</span> 9] <span class="o">[</span>TODO] Move this logic to a concern
+  <span class="k">*</span> <span class="o">[</span>18] <span class="o">[</span>FIXME] Refactor this method
+
+app/models/post.rb:
+  <span class="k">*</span> <span class="o">[</span> 2] <span class="o">[</span>TODO] Refactor this validation
+
+</code></pre></div></div>
+
+<h2 id="find-notes-with-specific-annotation">Find notes with specific annotation</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bin/rails notes <span class="nt">-a</span> TODO
+
+app/controllers/posts_controller.rb:
+  <span class="k">*</span> <span class="o">[</span>9] Move this logic to a concern
+
+app/models/post.rb:
+  <span class="k">*</span> <span class="o">[</span>2] Refactor this validation
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bin/rails notes <span class="nt">-a</span> FIXME
+
+app/controllers/posts_controller.rb:
+  <span class="k">*</span> <span class="o">[</span>18] Refactor this method
+</code></pre></div></div>]]></content><author><name>Deepak Mahakale</name><email>hello@deepakmahakale.in</email></author><category term="rails" /><summary type="html"><![CDATA[Want to check all the TODO's in your rails application? Let's see how to do it.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://deepakmahakale.com/ruby-on-rails-cheatsheet/images/og/how-to-check-todos-in-rails.png" /><media:content medium="image" url="https://deepakmahakale.com/ruby-on-rails-cheatsheet/images/og/how-to-check-todos-in-rails.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to use bun with rails?</title><link href="https://deepakmahakale.com/ruby-on-rails-cheatsheet/javascript/how-to-use-bun-with-rails/" rel="alternate" type="text/html" title="How to use bun with rails?" /><published>2023-09-13T00:00:00+05:30</published><updated>2023-09-13T00:00:00+05:30</updated><id>https://deepakmahakale.com/ruby-on-rails-cheatsheet/javascript/how-to-use-bun-with-rails</id><content type="html" xml:base="https://deepakmahakale.com/ruby-on-rails-cheatsheet/javascript/how-to-use-bun-with-rails/"><![CDATA[<p>Bun is fast. So is Rails.</p>
+
+<p>Rails 7.1 <a href="https://github.com/rails/jsbundling-rails/pull/167">added support</a> to use bun as JS runtime.</p>
+
+<h2 id="use-bun-with-new-rails-application">Use bun with new rails application</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>rails new blog <span class="nt">--javascript</span><span class="o">=</span>bun
+</code></pre></div></div>
+
+<h2 id="use-bun-with-an-existing-rails-application">Use bun with an existing rails application</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bin/rails javascript:install:bun
+</code></pre></div></div>]]></content><author><name>Deepak Mahakale</name><email>hello@deepakmahakale.in</email></author><category term="javascript" /><summary type="html"><![CDATA[Bun + Rails 7.1 Let's see how to do it.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://deepakmahakale.com/ruby-on-rails-cheatsheet/images/og/how-to-use-bun-with-rails.png" /><media:content medium="image" url="https://deepakmahakale.com/ruby-on-rails-cheatsheet/images/og/how-to-use-bun-with-rails.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to change column default?</title><link href="https://deepakmahakale.com/ruby-on-rails-cheatsheet/migration/how-to-change-column-default-in-rails/" rel="alternate" type="text/html" title="How to change column default?" /><published>2023-09-05T00:00:00+05:30</published><updated>2023-09-05T00:00:00+05:30</updated><id>https://deepakmahakale.com/ruby-on-rails-cheatsheet/migration/how-to-change-column-default-in-rails</id><content type="html" xml:base="https://deepakmahakale.com/ruby-on-rails-cheatsheet/migration/how-to-change-column-default-in-rails/"><![CDATA[<h2 id="syntax">Syntax</h2>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">change_column_default</span><span class="p">(</span><span class="n">table_name</span><span class="p">,</span> <span class="n">column_name</span><span class="p">,</span> <span class="n">default_or_changes</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="example">Example</h2>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">change_column_default</span><span class="p">(</span><span class="ss">:users</span><span class="p">,</span> <span class="ss">:state</span><span class="p">,</span> <span class="s1">'active'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Rails Command:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>rails generate migration change_column_default_for_state
+      invoke  active_record
+      create    db/migrate/20230906142034_change_column_default_for_state.rb
+</code></pre></div></div>
+
+<p>The above command will generate a migration</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">ChangeColumnDefaultForState</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Migration</span><span class="p">[</span><span class="mf">7.1</span><span class="p">]</span>
+  <span class="k">def</span> <span class="nf">change</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+</code></pre></div></div>
+
+<p>We need to modify it to:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">ChangeColumnDefaultForState</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Migration</span><span class="p">[</span><span class="mf">7.1</span><span class="p">]</span>
+  <span class="k">def</span> <span class="nf">change</span>
+    <span class="n">change_column_default</span><span class="p">(</span><span class="ss">:users</span><span class="p">,</span> <span class="ss">:state</span><span class="p">,</span> <span class="ss">from: </span><span class="kp">nil</span><span class="p">,</span> <span class="ss">to: </span><span class="s1">'active'</span><span class="p">)</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>It is recommended to pass <code class="language-plaintext highlighter-rouge">:from</code> and <code class="language-plaintext highlighter-rouge">:to</code> as it helps while reverting the migration</p>
+
+<p>NOTE:</p>
+
+<p>setting default to <code class="language-plaintext highlighter-rouge">nil</code> drops the default.</p>]]></content><author><name>Deepak Mahakale</name><email>hello@deepakmahakale.in</email></author><category term="migration" /><summary type="html"><![CDATA[Need to change a column default in rails? Let's see how to do it.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://deepakmahakale.com/ruby-on-rails-cheatsheet/images/og/how-to-change-column-default-in-rails.jpg" /><media:content medium="image" url="https://deepakmahakale.com/ruby-on-rails-cheatsheet/images/og/how-to-change-column-default-in-rails.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to rollback a specific migration?</title><link href="https://deepakmahakale.com/ruby-on-rails-cheatsheet/migration/how-to-rollback-a-specific-migration-in-rails/" rel="alternate" type="text/html" title="How to rollback a specific migration?" /><published>2023-09-05T00:00:00+05:30</published><updated>2023-09-05T00:00:00+05:30</updated><id>https://deepakmahakale.com/ruby-on-rails-cheatsheet/migration/how-to-rollback-a-specific-migration-in-rails</id><content type="html" xml:base="https://deepakmahakale.com/ruby-on-rails-cheatsheet/migration/how-to-rollback-a-specific-migration-in-rails/"><![CDATA[<p>In order to rollback a specific migration we need to specify the <code class="language-plaintext highlighter-rouge">VERSION</code> of the migration.</p>
+
+<p>For example:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># RAILS &gt;= 5.0</span>
+rails db:migrate:down <span class="nv">VERSION</span><span class="o">=</span>20230906123456
+
+<span class="c"># RAILS &lt; 5.0</span>
+rake db:migrate:down <span class="nv">VERSION</span><span class="o">=</span>20230906123456
+</code></pre></div></div>
+
+<h4 id="note">NOTE:</h4>
+
+<p>If a version is not found rails will throw an exception</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rails db:migrate:down <span class="nv">VERSION</span><span class="o">=</span>20000906123456
+
+bin/rails aborted!
+ActiveRecord::UnknownMigrationVersionError:
+
+No migration with version number 20000906123456.
+</code></pre></div></div>]]></content><author><name>Deepak Mahakale</name><email>hello@deepakmahakale.in</email></author><category term="migration" /><summary type="html"><![CDATA[Need to rollback a specific database migration? Let's see how to do it.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://deepakmahakale.com/ruby-on-rails-cheatsheet/images/og/how-to-rollback-a-specific-migration-in-rails.jpg" /><media:content medium="image" url="https://deepakmahakale.com/ruby-on-rails-cheatsheet/images/og/how-to-rollback-a-specific-migration-in-rails.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to run a specific migration?</title><link href="https://deepakmahakale.com/ruby-on-rails-cheatsheet/migration/how-to-run-a-specific-migration-in-rails/" rel="alternate" type="text/html" title="How to run a specific migration?" /><published>2023-09-05T00:00:00+05:30</published><updated>2023-09-05T00:00:00+05:30</updated><id>https://deepakmahakale.com/ruby-on-rails-cheatsheet/migration/how-to-run-a-specific-migration-in-rails</id><content type="html" xml:base="https://deepakmahakale.com/ruby-on-rails-cheatsheet/migration/how-to-run-a-specific-migration-in-rails/"><![CDATA[<p>In order to run a specific migration we need to specify the <code class="language-plaintext highlighter-rouge">VERSION</code> of the migration.</p>
+
+<p>For example:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># RAILS &gt;= 5.0</span>
+rails db:migrate:up <span class="nv">VERSION</span><span class="o">=</span>20230906123456
+
+<span class="c"># RAILS &lt; 5.0</span>
+rake db:migrate:up <span class="nv">VERSION</span><span class="o">=</span>20230906123456
+</code></pre></div></div>
+
+<p>If you want to rollback a specific migration</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># RAILS &gt;= 5.0</span>
+rails db:migrate:down <span class="nv">VERSION</span><span class="o">=</span>20230906123456
+
+<span class="c"># RAILS &lt; 5.0</span>
+rake db:migrate:down <span class="nv">VERSION</span><span class="o">=</span>20230906123456
+</code></pre></div></div>
+
+<h4 id="note">NOTE:</h4>
+
+<p>If a version is not found rails will throw an exception</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rails db:migrate:down <span class="nv">VERSION</span><span class="o">=</span>20000906123456
+
+bin/rails aborted!
+ActiveRecord::UnknownMigrationVersionError:
+
+No migration with version number 20000906123456.
+</code></pre></div></div>]]></content><author><name>Deepak Mahakale</name><email>hello@deepakmahakale.in</email></author><category term="migration" /><summary type="html"><![CDATA[Need to execute a specific database migration? Let's see how to do it.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://deepakmahakale.com/ruby-on-rails-cheatsheet/images/og/how-to-run-a-specific-migration-in-rails.jpg" /><media:content medium="image" url="https://deepakmahakale.com/ruby-on-rails-cheatsheet/images/og/how-to-run-a-specific-migration-in-rails.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to run migration on different environment?</title><link href="https://deepakmahakale.com/ruby-on-rails-cheatsheet/migration/how-to-run-migration-on-different-environment-in-rails/" rel="alternate" type="text/html" title="How to run migration on different environment?" /><published>2023-09-05T00:00:00+05:30</published><updated>2023-09-05T00:00:00+05:30</updated><id>https://deepakmahakale.com/ruby-on-rails-cheatsheet/migration/how-to-run-migration-on-different-environment-in-rails</id><content type="html" xml:base="https://deepakmahakale.com/ruby-on-rails-cheatsheet/migration/how-to-run-migration-on-different-environment-in-rails/"><![CDATA[<p>By default <code class="language-plaintext highlighter-rouge">rails db:migrate</code> will run in the <code class="language-plaintext highlighter-rouge">development</code> environment.</p>
+
+<p>In order to run migrations on another environment we need to specify the
+<code class="language-plaintext highlighter-rouge">RAILS_ENV</code> environment variable.</p>
+
+<p>For example:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">RAILS_ENV</span><span class="o">=</span><span class="nb">test </span>rails db:migrate
+</code></pre></div></div>
+
+<p>The above command will run the db migrations against the <code class="language-plaintext highlighter-rouge">test</code> environment.</p>]]></content><author><name>Deepak Mahakale</name><email>hello@deepakmahakale.in</email></author><category term="migration" /><summary type="html"><![CDATA[Need to execute the database migrations on a different environment? Let's see how to do it.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://deepakmahakale.com/ruby-on-rails-cheatsheet/images/og/how-to-run-migration-on-different-environment-in-rails.jpg" /><media:content medium="image" url="https://deepakmahakale.com/ruby-on-rails-cheatsheet/images/og/how-to-run-migration-on-different-environment-in-rails.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to get random number in ruby?</title><link href="https://deepakmahakale.com/ruby-on-rails-cheatsheet/basic/how-to-generate-random-number-in-ruby/" rel="alternate" type="text/html" title="How to get random number in ruby?" /><published>2023-09-04T00:00:00+05:30</published><updated>2023-09-04T00:00:00+05:30</updated><id>https://deepakmahakale.com/ruby-on-rails-cheatsheet/basic/how-to-generate-random-number-in-ruby</id><content type="html" xml:base="https://deepakmahakale.com/ruby-on-rails-cheatsheet/basic/how-to-generate-random-number-in-ruby/"><![CDATA[<h2 id="without-an-argument">Without an argument</h2>
+
+<p>Returns number between <code class="language-plaintext highlighter-rouge">0.0</code> - <code class="language-plaintext highlighter-rouge">1.0</code>, including <code class="language-plaintext highlighter-rouge">0.0</code> and excluding <code class="language-plaintext highlighter-rouge">1.0</code>.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mf">3.1</span><span class="o">.</span><span class="mi">4</span> <span class="p">:</span><span class="mo">001</span> <span class="o">&gt;</span> <span class="nb">rand</span>
+<span class="c1">#=&gt; 0.43273184407039833</span>
+</code></pre></div></div>
+
+<h2 id="with-max-limit">With max limit</h2>
+
+<p>Returns a random integer greater than or equal to <code class="language-plaintext highlighter-rouge">0</code> and less than <code class="language-plaintext highlighter-rouge">max.to_i.abs</code>.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mf">3.1</span><span class="o">.</span><span class="mi">4</span> <span class="p">:</span><span class="mo">002</span> <span class="o">&gt;</span> <span class="nb">rand</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+<span class="c1">#=&gt; 4</span>
+</code></pre></div></div>
+
+<h2 id="with-a-range">With a range</h2>
+
+<p>Returns a random integer number between the provided range including both the numbers.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mf">3.1</span><span class="o">.</span><span class="mi">4</span> <span class="p">:</span><span class="mo">003</span> <span class="o">&gt;</span> <span class="nb">rand</span><span class="p">(</span><span class="mi">1</span><span class="o">..</span><span class="mi">10</span><span class="p">)</span>
+<span class="c1">#=&gt; 8</span>
+</code></pre></div></div>]]></content><author><name>Deepak Mahakale</name><email>hello@deepakmahakale.in</email></author><category term="basic" /><summary type="html"><![CDATA[How to generate random numbers in ruby between a specified range.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://deepakmahakale.com/ruby-on-rails-cheatsheet/images/og/how-to-generate-random-number-in-ruby.jpg" /><media:content medium="image" url="https://deepakmahakale.com/ruby-on-rails-cheatsheet/images/og/how-to-generate-random-number-in-ruby.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">nil? vs empty? vs blank? in ruby</title><link href="https://deepakmahakale.com/ruby-on-rails-cheatsheet/basic/nil-vs-empty-vs-blank-in-ruby/" rel="alternate" type="text/html" title="nil? vs empty? vs blank? in ruby" /><published>2023-09-04T00:00:00+05:30</published><updated>2023-09-04T00:00:00+05:30</updated><id>https://deepakmahakale.com/ruby-on-rails-cheatsheet/basic/nil-vs-empty-vs-blank-in-ruby</id><content type="html" xml:base="https://deepakmahakale.com/ruby-on-rails-cheatsheet/basic/nil-vs-empty-vs-blank-in-ruby/"><![CDATA[<h2 id="nil">nil?</h2>
+
+<p>This method is available on all objects and ruturns <code class="language-plaintext highlighter-rouge">true</code> only when the object is <code class="language-plaintext highlighter-rouge">nil</code>.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kp">nil</span><span class="p">.</span><span class="nf">nil?</span>               <span class="c1">#=&gt; true</span>
+<span class="p">[].</span><span class="nf">nil?</span>                <span class="c1">#=&gt; false</span>
+<span class="s2">""</span><span class="p">.</span><span class="nf">nil?</span>                <span class="c1">#=&gt; false</span>
+<span class="mi">1</span><span class="p">.</span><span class="nf">nil?</span>                 <span class="c1">#=&gt; false</span>
+</code></pre></div></div>
+
+<h2 id="empty">empty?</h2>
+
+<p>This method is available on <code class="language-plaintext highlighter-rouge">String</code>, <code class="language-plaintext highlighter-rouge">Array</code> and <code class="language-plaintext highlighter-rouge">Hash</code> and ruturns <code class="language-plaintext highlighter-rouge">true</code> only when they are empty.
+Empty here means the object is not nil but does not have any value inside.</p>
+
+<p>For example:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s2">""</span><span class="p">.</span><span class="nf">empty?</span>               <span class="c1">#=&gt; true</span>
+<span class="p">[].</span><span class="nf">empty?</span>               <span class="c1">#=&gt; true</span>
+<span class="p">{}.</span><span class="nf">empty?</span>               <span class="c1">#=&gt; true</span>
+</code></pre></div></div>
+
+<h2 id="blank">blank?</h2>
+
+<p>ℹ️ <code class="language-plaintext highlighter-rouge">#blank?</code> is a rails method</p>
+
+<p>An object is blank if it’s <code class="language-plaintext highlighter-rouge">false</code>, empty, or a whitespace string.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kp">false</span><span class="p">.</span><span class="nf">blank?</span>            <span class="c1">#=&gt; true</span>
+<span class="s2">""</span><span class="p">.</span><span class="nf">blank?</span>               <span class="c1">#=&gt; true</span>
+<span class="s2">"  "</span><span class="p">.</span><span class="nf">blank?</span>             <span class="c1">#=&gt; true</span>
+<span class="kp">nil</span><span class="p">.</span><span class="nf">blank?</span>              <span class="c1">#=&gt; true</span>
+<span class="p">[].</span><span class="nf">blank?</span>               <span class="c1">#=&gt; true</span>
+<span class="p">{}.</span><span class="nf">blank?</span>               <span class="c1">#=&gt; true</span>
+</code></pre></div></div>
+
+<h2 id="comparison">Comparison</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>#nil?</th>
+      <th>#empty?</th>
+      <th>#blank?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>nil</td>
+      <td>true</td>
+      <td>NoMethodError</td>
+      <td>true</td>
+    </tr>
+    <tr>
+      <td>[]</td>
+      <td>false</td>
+      <td>true</td>
+      <td>true</td>
+    </tr>
+    <tr>
+      <td>{}</td>
+      <td>false</td>
+      <td>true</td>
+      <td>true</td>
+    </tr>
+    <tr>
+      <td>""</td>
+      <td>false</td>
+      <td>true</td>
+      <td>true</td>
+    </tr>
+    <tr>
+      <td>" "</td>
+      <td>false</td>
+      <td>false</td>
+      <td>true</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>false</td>
+      <td>NoMethodError</td>
+      <td>false</td>
+    </tr>
+    <tr>
+      <td>true</td>
+      <td>false</td>
+      <td>NoMethodError</td>
+      <td>false</td>
+    </tr>
+    <tr>
+      <td>false</td>
+      <td>false</td>
+      <td>NoMethodError</td>
+      <td>true</td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>Deepak Mahakale</name><email>hello@deepakmahakale.in</email></author><category term="basic" /><summary type="html"><![CDATA[ruby nil? vs empty? vs blank?; What is the difference?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://deepakmahakale.com/ruby-on-rails-cheatsheet/images/og/nil-vs-empty-vs-blank-in-ruby.jpg" /><media:content medium="image" url="https://deepakmahakale.com/ruby-on-rails-cheatsheet/images/og/nil-vs-empty-vs-blank-in-ruby.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to create a table in rails?</title><link href="https://deepakmahakale.com/ruby-on-rails-cheatsheet/migration/how-to-create-a-table-in-rails/" rel="alternate" type="text/html" title="How to create a table in rails?" /><published>2023-08-01T00:00:00+05:30</published><updated>2023-08-01T00:00:00+05:30</updated><id>https://deepakmahakale.com/ruby-on-rails-cheatsheet/migration/how-to-create-a-table-in-rails</id><content type="html" xml:base="https://deepakmahakale.com/ruby-on-rails-cheatsheet/migration/how-to-create-a-table-in-rails/"><![CDATA[<h2 id="table">Table</h2>
+
+<p>Create an articles table</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bin/rails generate migration CreateArticles
+</code></pre></div></div>
+
+<p>Generates the following migration:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># db/migrate/20230803041631_create_articles.rb</span>
+class CreateArticles &lt; ActiveRecord::Migration[7.1]
+  def change
+    create_table :articles <span class="k">do</span> |t|
+
+      t.timestamps
+    end
+  end
+end
+</code></pre></div></div>
+
+<h2 id="table-with-fields">Table with fields</h2>
+
+<p>Create an articles table with title and content fields</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bin/rails generate migration CreateArticles title content:text
+</code></pre></div></div>
+
+<p>Generates the following migration:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># db/migrate/20230803042216_create_articles.rb</span>
+class CreateArticles &lt; ActiveRecord::Migration[7.1]
+  def change
+    create_table :articles <span class="k">do</span> |t|
+      t.string :title
+      t.text :content
+
+      t.timestamps
+    end
+  end
+end
+</code></pre></div></div>
+
+<h2 id="table-with-references">Table with references</h2>
+
+<p>Create an articles table with references</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bin/rails generate migration CreateArticles title content:text user:references
+</code></pre></div></div>
+
+<p>Generates the following migration:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># db/migrate/20230803042543_create_articles.rb</span>
+class CreateArticles &lt; ActiveRecord::Migration[7.1]
+  def change
+    create_table :articles <span class="k">do</span> |t|
+      t.string :title
+      t.text :content
+      t.references :user, null: <span class="nb">false</span>, foreign_key: <span class="nb">true
+
+      </span>t.timestamps
+    end
+  end
+end
+</code></pre></div></div>
+
+<h2 id="table-with-indexes">Table with indexes</h2>
+<h2 id="table-with-additional-indexes">Table with additional indexes</h2>
+<h2 id="table-with-polymorphic-associations">Table with polymorphic associations</h2>
+
+<h2 id="references">References</h2>
+<ul>
+  <li><a href="https://guides.rubyonrails.org/active_record_migrations.html">https://guides.rubyonrails.org/active_record_migrations.html</a></li>
+</ul>
+
+<h2 id="note">Note</h2>
+<p>All the commands have been tested with rails 7.1 and the result may differ with prior versions</p>]]></content><author><name>Deepak Mahakale</name><email>hello@deepakmahakale.in</email></author><category term="migration" /><summary type="html"><![CDATA[Need to create a table in rails? Let's see how to do it.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://deepakmahakale.com/ruby-on-rails-cheatsheet/images/og/how-to-create-a-table-in-rails.jpg" /><media:content medium="image" url="https://deepakmahakale.com/ruby-on-rails-cheatsheet/images/og/how-to-create-a-table-in-rails.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to remove a column in rails?</title><link href="https://deepakmahakale.com/ruby-on-rails-cheatsheet/migration/how-to-remove-a-column-in-rails/" rel="alternate" type="text/html" title="How to remove a column in rails?" /><published>2023-08-01T00:00:00+05:30</published><updated>2023-08-01T00:00:00+05:30</updated><id>https://deepakmahakale.com/ruby-on-rails-cheatsheet/migration/how-to-remove-a-column-in-rails</id><content type="html" xml:base="https://deepakmahakale.com/ruby-on-rails-cheatsheet/migration/how-to-remove-a-column-in-rails/"><![CDATA[<h2 id="syntax">Syntax</h2>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">remove_column</span><span class="p">(</span><span class="n">table_name</span><span class="p">,</span> <span class="n">column_name</span><span class="p">,</span> <span class="n">type</span> <span class="o">=</span> <span class="kp">nil</span><span class="p">,</span> <span class="o">**</span><span class="n">options</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="example">Example</h2>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">remove_column</span><span class="p">(</span><span class="ss">:users</span><span class="p">,</span> <span class="ss">:phone</span><span class="p">,</span> <span class="ss">type: :string</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>While the type is not mandatory,
+it is advised to add it so that the type is used while reverting the migration.</p>
+
+<p>Rails Command:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>rails generate migration remove_phone_from_users phone:string
+      invoke  active_record
+      create    db/migrate/20230906141018_remove_phone_from_users.rb
+</code></pre></div></div>
+
+<p>The above command will generate an appropriate migration</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">RemovePhoneFromUsers</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Migration</span><span class="p">[</span><span class="mf">7.1</span><span class="p">]</span>
+  <span class="k">def</span> <span class="nf">change</span>
+    <span class="n">remove_column</span> <span class="ss">:users</span><span class="p">,</span> <span class="ss">:phone</span><span class="p">,</span> <span class="ss">:string</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div></div>]]></content><author><name>Deepak Mahakale</name><email>hello@deepakmahakale.in</email></author><category term="migration" /><summary type="html"><![CDATA[Need to remove a column in rails? Let's see how to do it.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://deepakmahakale.com/ruby-on-rails-cheatsheet/images/og/how-to-remove-a-column-in-rails.jpg" /><media:content medium="image" url="https://deepakmahakale.com/ruby-on-rails-cheatsheet/images/og/how-to-remove-a-column-in-rails.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
