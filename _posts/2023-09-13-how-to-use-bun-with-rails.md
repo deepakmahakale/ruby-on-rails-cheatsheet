@@ -10,7 +10,7 @@ type: Document
 image: images/og/how-to-use-bun-with-rails.png
 ---
 
-Bun is fast. So is Rails. Test change
+Bun is fast. So is Rails. Test change2
 
 Rails 7.1 [added support](https://github.com/rails/jsbundling-rails/pull/167) to use bun as JS runtime.
 
